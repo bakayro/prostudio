@@ -1,0 +1,93 @@
+$flaticon-font: "flaticon";
+
+@font-face {
+    font-family: $flaticon-font;
+    src: url("./flaticon.ttf?b8732fabc61d0087d36c058ce45c4599") format("truetype"),
+url("./flaticon.woff?b8732fabc61d0087d36c058ce45c4599") format("woff"),
+url("./flaticon.woff2?b8732fabc61d0087d36c058ce45c4599") format("woff2"),
+url("./flaticon.eot?b8732fabc61d0087d36c058ce45c4599#iefix") format("embedded-opentype"),
+url("./flaticon.svg?b8732fabc61d0087d36c058ce45c4599#flaticon") format("svg");
+}
+
+i[class^="flaticon-"]:before, i[class*=" flaticon-"]:before {
+    font-family: flaticon !important;
+    font-style: normal;
+    font-weight: normal !important;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+$flaticon-map: (
+    "facebook": "\f101",
+    "twitter": "\f102",
+    "instagram": "\f103",
+    "play": "\f104",
+    "wifi": "\f105",
+    "fast-forward": "\f106",
+    "laptop": "\f107",
+    "sedan-car-front": "\f108",
+    "hot-coffee-rounded-cup-on-a-plate-from-side-view": "\f109",
+    "phone": "\f10a",
+    "left-arrow": "\f10b",
+    "next": "\f10c",
+    "next-1": "\f10d",
+    "youtube": "\f10e",
+    "plus": "\f10f",
+    "telegram": "\f110",
+    "mouse": "\f111",
+);
+
+.flaticon-facebook:before {
+    content: map-get($flaticon-map, "facebook");
+}
+.flaticon-twitter:before {
+    content: map-get($flaticon-map, "twitter");
+}
+.flaticon-instagram:before {
+    content: map-get($flaticon-map, "instagram");
+}
+.flaticon-play:before {
+    content: map-get($flaticon-map, "play");
+}
+.flaticon-wifi:before {
+    content: map-get($flaticon-map, "wifi");
+}
+.flaticon-fast-forward:before {
+    content: map-get($flaticon-map, "fast-forward");
+}
+.flaticon-laptop:before {
+    content: map-get($flaticon-map, "laptop");
+}
+.flaticon-sedan-car-front:before {
+    content: map-get($flaticon-map, "sedan-car-front");
+}
+.flaticon-hot-coffee-rounded-cup-on-a-plate-from-side-view:before {
+    content: map-get($flaticon-map, "hot-coffee-rounded-cup-on-a-plate-from-side-view");
+}
+.flaticon-phone:before {
+    content: map-get($flaticon-map, "phone");
+}
+.flaticon-left-arrow:before {
+    content: map-get($flaticon-map, "left-arrow");
+}
+.flaticon-next:before {
+    content: map-get($flaticon-map, "next");
+}
+.flaticon-next-1:before {
+    content: map-get($flaticon-map, "next-1");
+}
+.flaticon-youtube:before {
+    content: map-get($flaticon-map, "youtube");
+}
+.flaticon-plus:before {
+    content: map-get($flaticon-map, "plus");
+}
+.flaticon-telegram:before {
+    content: map-get($flaticon-map, "telegram");
+}
+.flaticon-mouse:before {
+    content: map-get($flaticon-map, "mouse");
+}
